@@ -85,8 +85,6 @@ void onSwitchCommand(bool state, HASwitch* sender )
     } else if (sender == &switch9) {
       digitalWrite(RPorts[9], portState);
     }
-  }
-
   sender->setState(state); // report state back to the Home Assistant
 }
 
