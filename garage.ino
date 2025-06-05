@@ -177,7 +177,7 @@ void loop() {
       //case 6: switch6.setState(AIState[i]); break;
       //case 7: switch7.setState(AIState[i]); break;
       //case 8: switch8.setState(AIState[i]); break;
-      case 9: switch9.setState(AIState[i]); break;
+      case 9: switch9.setState(RPortsState[i]); break;
     }
     AILastState[i] = AIReading[i];
   }
